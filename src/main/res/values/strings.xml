@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LearnEnglish</string>
+    <string name="get_word">get a random word</string>
+    <string name="the_word">word here</string>
+    <string name="hint">请输入图片对应的单词</string>
+    <string name="go">Go Next</string>
+    <string name="go_back">返回</string>
+    <string name="result">result</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RandomWordActivity">
+
+    <!--<TextView-->
+        <!--android:id="@+id/welcome"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="112dp"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="30dp"-->
+        <!--android:text="Welcome to LearnEnglish!" />-->
+
+    <Button
+        android:id="@+id/goNext"
+        android:text="@string/go"
+        android:onClick="onClickGoNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/get_word"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:gravity="center"
+        android:onClick="onClickShowWord"
+        android:textSize="40dp"
+        android:text="@string/get_word" />
+
+    <TextView
+        android:id="@+id/word_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="@string/the_word" />
+
+</LinearLayout>
